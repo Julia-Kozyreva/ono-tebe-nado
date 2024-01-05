@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/style.css"/>
   </head>
   <body>
-    <class class="header">
+    <header class="header">
         <nav class="header__menu">
           <ul class="header__links-list">
             <li class="header__links-list-item_no-bullit">
@@ -38,20 +38,38 @@
       <address class="header__address">
         <ul class="header__address_list">
           <li class="header__address_list-item">
-            <a class="address__link" href="tel:+99995555555">+9(999)555-55-55</a>
+            <a class="address__link" href="tel:+99995555555">
+              +9(999)555-55-55
+            </a>
           </li>
           <li class="header__address_list-item">
-            <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <a class="address__link" href="mailto:info@sobaka.ge">
+              info@sobaka.ge
+            </a>
           </li>
           <li class="header__address_list-item">
-            <a class="address__text">наб. Принсенграхт 263- <br> 265, Амстердам</a>
+            <a class="address__text">
+              наб. Принсенграхт 263- <br> 265, Амстердам
+            </a>
           </li>
         </ul>
+      </address>
     </header>
     <main>
-     <cover></cover>
-     <lots></lots>
-     <about></about>
+      <section class="cover">
+      <div class="overlay"></div>
+       <h1 class="cover__title">
+         <span class="aligned-text">О<span class="letter-spacing-extended">НО</span></span>
+         <span class="aligned-text aligned-text_center">ТЕ<span class="letter-spacing-extended">БЕ</span></span>
+         <span class="aligned-text aligned-text_right "><span class="letter-spacing-extended">Н</span>АД<span class="no-letter-spacing">О</span></span>
+        </h1>
+        <div class="cover__description">
+          <div class="cover__description-text">Аукцион вещей, в которые никто не верил</div>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
+     <section class="lots"></section>
+     <section class="about"></section>
     </main>
     <footer></footer>
   </body>
