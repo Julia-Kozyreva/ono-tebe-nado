@@ -5,7 +5,7 @@
 }
 
 .header__logo {
-    display: block; 
+    display: block;
     margin-left: 35px;
 }
 
@@ -53,7 +53,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px; 
+    line-height: 24.3px;
     letter-spacing: 0.18px;
     list-style: none;
 }
@@ -78,7 +78,7 @@
     line-height: 24.3px;
 }
 
-.cover { 
+.cover {
     display: block;
     padding: 165px 50px 62px;
     position: relative;
@@ -86,8 +86,7 @@
     width: 1100px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
-    background-position: center ;  
-    position: relative;
+    background-position: center;
 }
 
 .cover__title {
@@ -118,7 +117,7 @@
 }
 
 .letter-spacing-extended {
-    letter-spacing: 60px; 
+    letter-spacing: 60px;
 }
 
 .no-letter-spacing {
@@ -132,10 +131,10 @@
     right: 0;
     bottom: 0;
     z-index: 0;
-    background: #000;  
+    background: #000;
 }
 
-.cover__description{
+.cover__description {
     position: relative;
     z-index: 1;
     display: flex;
@@ -149,12 +148,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .cover__description-text {
     word-spacing:18px;
-    margin-left: 27px; 
+    margin-left: 27px;
 }
 
 .bet-button {
@@ -193,7 +192,7 @@
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_type_book{
+.card_type_book {
     background-image: url(../images/card-lot-02.jpg);
 }
 
@@ -243,7 +242,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
 }
 
 .lots__look-more-link {
@@ -297,13 +296,13 @@
     text-transform: uppercase;
 }
 
-.about__text{
+.about__text {
     margin-bottom: 24px;
     color: #000;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
 }
 
 .footer {
@@ -313,7 +312,7 @@
     padding: 10px 51px 88px;
 }
 
-.footer__menu-list{
+.footer__menu-list {
     list-style: none;
     color: #000;
     text-align: center;
@@ -334,17 +333,17 @@
     line-height: normal;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
     display: flex;
     list-style: none;
     gap:48px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
     width: 48px;
     height: 48px;
 }
