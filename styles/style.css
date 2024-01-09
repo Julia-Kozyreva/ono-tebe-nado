@@ -6,7 +6,7 @@
 
 .header__logo {
     display: block; 
-    margin-left: 45px;
+    margin-left: 35px;
 }
 
 .header__logo-image {
@@ -29,13 +29,18 @@
     display: flex;
     gap: 0 32px;
     list-style: circle;
+    margin-top: 5px;
     
 }
 
 .header__links-list-item_no-bullit {
-    text-decoration: none;
     list-style: none;
 }
+
+.header__link_active {
+    text-decoration: none;
+}
+
 
 .header__address {
     margin-left: auto;
@@ -43,6 +48,7 @@
 
 .address_list {
     margin-right: 35px;
+    margin-top: 5px;
     color: #000;
     font-size: 18px;
     font-style: normal;
@@ -61,7 +67,6 @@
     font-weight: 400;
     line-height: 24.3px;
     letter-spacing: 0.18px;
-    
 }
 
 .address__text {
@@ -127,8 +132,7 @@
     right: 0;
     bottom: 0;
     z-index: 0;
-    background: #000;
-    
+    background: #000;  
 }
 
 .cover__description{
@@ -150,9 +154,7 @@
 
 .cover__description-text {
     word-spacing:18px;
-    margin-left: 27px;
-    
-    
+    margin-left: 27px; 
 }
 
 .bet-button {
@@ -167,7 +169,6 @@
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-
 }
 
 .lots {
@@ -206,7 +207,6 @@
     flex-grow: 1;
     gap: 25px;
     list-style: none;
-
 }
 
 .card-link {
@@ -262,7 +262,7 @@
 .about {
     display: flex;
     gap: 0 72px;
-    padding: 201px 71px;
+    padding: 181px 24px 140px 71px;
 }
 
 .about__logo {
@@ -280,11 +280,10 @@
 .about__logo-image {
     width: 148px;
     height: 114px;
-   
 }
 
 .about__column {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .about__title {
@@ -301,7 +300,6 @@
 .about__text{
     margin-bottom: 24px;
     color: #000;
-    font-family: Raleway;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -312,11 +310,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 51px 88pxж
+    padding: 10px 51px 88px;
 }
 
 .footer__menu-list{
-    
     list-style: none;
     color: #000;
     text-align: center;
