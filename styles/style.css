@@ -56,8 +56,6 @@
 }
 
 .address__link {
-    width: 240px;
-    height: 24px;
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -79,10 +77,8 @@
 
 .cover {
     display: block;
-    padding: 165px 50px 62px;
+    padding: 162px 50px 50px;
     position: relative;
-    height: 757px;
-    width: 1100px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -171,7 +167,7 @@
 }
 
 .lots {
-    padding: 178px 24px 0;
+    padding: 180px 24px 0;
 }
 
 .lots__title {
@@ -248,7 +244,7 @@
     justify-content: space-between;
     padding: 30px 40px 0;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -306,15 +302,15 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 51px 88px;
+    align-items: start;
+    padding: 18px 51px 88px;
 }
 
 .footer__menu-list {
     list-style: none;
     color: #000;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
